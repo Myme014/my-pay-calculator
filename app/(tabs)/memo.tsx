@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function HomeScreen() {
+export default function MemoScreen() {
   return (
     <View style={styles.container}>
-      <Text>Home Screen</Text>
+      <Text>Memo Screen</Text>
     </View>
   );
 }
@@ -14,4 +14,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-});
+}); 
